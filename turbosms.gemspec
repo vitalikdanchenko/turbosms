@@ -4,7 +4,7 @@ require 'turbosms/version'
 Gem::Specification.new do |s|
   s.name        = 'turbosms'
   s.version     = TurboSMS::VERSION
-  s.date        = '2014-12-1'
+  s.date        = '2014-12-11'
   s.summary     = 'TurboSMS'
   s.description = "Ruby gem implements TurboSMS soap gateway http://turbosms.ua"
   s.authors     = ["Vitalik Danchenko"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/vitalikdanchenko/turbosms'
   s.license     = 'MIT'
   
-  s.files         = `git ls-files`.split('\n')
+  s.files         = `git ls-files`.split("\n")
   
   s.add_dependency    'savon'
 end
