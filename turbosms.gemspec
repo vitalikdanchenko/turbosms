@@ -4,7 +4,7 @@ require 'turbosms/version'
 Gem::Specification.new do |s|
   s.name        = 'turbosms'
   s.version     = TurboSMS::VERSION
-  s.date        = '2014-12-11'
+  s.date        = Date.today.to_s
   s.summary     = 'TurboSMS'
   s.description = "Ruby gem implements TurboSMS soap gateway http://turbosms.ua"
   s.authors     = ["Vitalik Danchenko"]
