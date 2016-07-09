@@ -33,7 +33,7 @@ module TurboSMS
       response = client.call(method_name, args.merge(cookies: @cookies))
       result = response.body[response_key][result_key]
       result = result[:result_array] if result.instance_of?(Hash) and !result[:result_array].nil?
-      clear_cookie if !result.instance_of?(Array) and result.length == 20 # Ridiculous # Вы не авторизированы
+      clear_cookies if !result.instance_of?(Array) and result.length == 20 # Ridiculous # Вы не авторизированы
       result
     end
     
