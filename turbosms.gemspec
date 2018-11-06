@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.email       = 'vitalik.danchenko@gmail.com'
   s.homepage    = 'https://github.com/vitalikdanchenko/turbosms'
   s.license     = 'MIT'
-  
+
   s.files         = `git ls-files`.split("\n")
-  
-  s.add_dependency    'savon'
+
+  s.add_runtime_dependency 'savon', '~> 2.12', '>= 2.12.0'
 end

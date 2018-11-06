@@ -1,3 +1,3 @@
 source "http://rubygems.org"
 
-gem 'savon'
+gem 'savon', '~> 2.12.0'
